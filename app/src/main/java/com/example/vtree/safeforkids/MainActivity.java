@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.example.hiepbeo.demohiep/http/host/path")
+                Uri.parse("android-app://com.example.vtree.safeforkids/http/host/path")
         );
         AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app URL is correct.
-                Uri.parse("android-app://com.example.hiepbeo.demohiep/http/host/path")
+                Uri.parse("android-app://com.example.vtree.safeforkids/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();

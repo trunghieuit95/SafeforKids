@@ -5,7 +5,7 @@
         android:layout_height="wrap_content"
         android:padding="5dp" >
 
-        <com.example.hiepbeo.demohiep.CircleImage
+        <com.example.vtree.safeforkids.CircleImage
             android:id="@+id/grid_image"
             android:layout_width="50dp"
             android:layout_height="50dp"

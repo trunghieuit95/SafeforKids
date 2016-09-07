@@ -51,8 +51,7 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
                 Toast.makeText(MainActivity.this, "You Clicked at " + web[+position], Toast.LENGTH_SHORT).show();
-                /*Intent intent = new Intent(MainActivity.this, StartScreen.class);
-                startActivity(intent);*/
+                startActivity(new Intent(MainActivity.this,Level.class));
             }
         });
 

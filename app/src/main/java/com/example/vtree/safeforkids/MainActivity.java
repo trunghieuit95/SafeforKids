@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-
+                //sua
                 Intent intent = new Intent(MainActivity.this, LevelActivity.class);
                 startActivity(intent);
             }

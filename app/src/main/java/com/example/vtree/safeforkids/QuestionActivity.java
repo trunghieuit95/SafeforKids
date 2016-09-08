@@ -2,6 +2,7 @@ package com.example.vtree.safeforkids;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -25,10 +26,11 @@ public class QuestionActivity extends AppCompatActivity {
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                dialog.cancel();
+                                Intent intent = new Intent(QuestionActivity.this, MainActivity.class);
+                                startActivity(intent);
                             }
                         });
-        //builder.setView(image);
+        builder.setView(image);
         btnShould.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

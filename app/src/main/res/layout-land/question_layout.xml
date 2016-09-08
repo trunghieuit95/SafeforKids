@@ -20,6 +20,7 @@
         >
         <Button
             android:text="Should"
+            android:id="@+id/btnShould"
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_height="200dp"
@@ -27,6 +28,7 @@
             />
         <Button
             android:text="Shouldn't"
+            android:id="@+id/btnShouldnt"
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_marginLeft="5dp"
